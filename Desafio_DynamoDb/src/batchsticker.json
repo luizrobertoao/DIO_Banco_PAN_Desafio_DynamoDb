@@ -1,0 +1,34 @@
+{
+  "Sticker": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Player": {"S": "Gavi"},
+          "Rarity": {"S": "Silver"},
+          "Type": {"S": "Rookie"},
+          "Certification": {"BOOL": "false"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Player": {"S": "Lionel Messi"},
+          "Rarity": {"S": "Bronze"},
+          "Type": {"S": "Legend"},
+          "Certification": {"BOOL": "true"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Player": {"S": "Cristiano Ronaldo"},
+          "Rarity": {"S": "Gold"},
+          "Type": {"S": "Legend"},
+          "Certification": {"BOOL": "true"}
+        }
+      }
+    }
+  ]
+}
