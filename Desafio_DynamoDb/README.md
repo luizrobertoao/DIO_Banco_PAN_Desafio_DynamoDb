@@ -114,7 +114,7 @@ aws dynamodb query \
     --expression-attribute-values  '{":v_player":{"S":"Neymar"},":v_certification":{"BOOL":"true"} }'
 ```
 
-- Pesquisa pelo index secundário baseado no título da música e no ano
+- Pesquisa pelo index secundário baseado em Rarity e Type
 
 ```
 aws dynamodb query \
